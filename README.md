@@ -1,4 +1,4 @@
-# Froxlor Control Panel Installer for Debian 7.x Wheezy
+# Froxlor Server Management Panel Installer for Debian 7.x Wheezy
 
 The scope of the project is to create an automated installer of [Froxlor Server Management Panel] (http://froxlor.org/) in Debian 7.x Wheezy.
 
