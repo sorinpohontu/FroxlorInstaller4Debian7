@@ -2,14 +2,20 @@
 
 The scope of the project is to create an automated installer of [Froxlor Server Management Panel] (http://froxlor.org/) in Debian 7.x Wheezy.
 
-This project is build for specific configuration:
+This project is build for a specific configuration:
 
-### Webserver ###
-* Apache2
-* PHP-FPM
+#### Database ####
+* Percona Server 5.6 (repo percona)
 
-### Mailserver ###
-* Postfix with Dovecot
+#### Webserver ####
+* Apache 2.2.x (repo wheezy)
+* PHP 5.4.x with FPM (repo wheezy)
 
-### FTP Server ###
-* ProFTPd
+#### Mailserver ####
+* Postfix 2.11 with Dovecot 2.0 (repo wheezy-backports)
+
+#### FTP Server ####
+* ProFTPd 1.3.x (repo wheezy)
+
+#### Statistics ####
+* AWStats 
